@@ -1,0 +1,89 @@
+
+
+.main{
+  height: 70px;
+}
+
+.Logo{
+  float:left;
+  margin-left: 20px;
+
+}
+
+.links{
+  float:right;
+  margin-right: 80px;
+  margin-top:10px;
+}
+
+.links ul li{
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  margin-left: 8px;
+  border: solid 1px #000;
+  color: #000;
+
+}
+
+.links ul li:hover{
+  background: #000;
+  color: #fff;
+}
+
+.login-box{
+  margin-left: 470px;
+  margin-top: 100px;
+  border: solid 1px #000;
+  height: 250px;
+  width:300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+.login-box form input{
+  margin-top: 30px;
+  margin-left: 40px;
+  display: flex;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius:12px ;
+}
+.login-box form input:hover {
+  background: #000;
+}
+
+.login-box h2{
+  color: #000;
+  margin-left: 54px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.login-box form button{
+  margin-top: 20px;
+  margin-left: 90px;
+  background: #fff;
+  border-radius: 10px;
+  border: solid 1px #000;
+  width: 100px;
+
+}
+.login-box form button:hover{
+  background: #000;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
