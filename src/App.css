@@ -78,7 +78,37 @@
   color: #fff;
 }
 
+table{
+  margin-top: 80px;
+  margin-left: 550px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  border: none;
 
+}
+
+
+
+
+
+form button{
+  margin-top: 10px;
+  margin-left: 580px;
+  box-shadow: 2px 2px 2px 2px;
+  border: none;
+}
+
+form table input {
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 5px 5px 5px 5px;
+
+}
+
+.user h1{
+  margin-left: 20px;
+  margin-top: 10px;
+}
 
 
 

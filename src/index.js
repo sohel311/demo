@@ -6,22 +6,19 @@ import * as serviceWorker from './serviceWorker';
 import Header from "./Component/header";
 import {BrowserRouter} from 'react-router-dom';
 import {Provider} from 'react-redux';
-import { createStore } from 'redux'
+import { createStore, combineReducers } from 'redux'
 import log_check from './Reducers/log';
+import Stud from "./Reducers/Stud_Data";
+const store = createStore(combineReducers({log_check,Stud}));
 
-const store = createStore(log_check);
 ReactDOM.render(
   <React.StrictMode>
-
       <BrowserRouter>
-
-              <Header></Header>
+        <Header/>
           <Provider store={store}>
               <App/>
           </Provider>
-
       </BrowserRouter>
-
   </React.StrictMode>,
   document.getElementById('root')
 );
